@@ -1,0 +1,16 @@
+{
+  "name": "konsole-spel",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "detektivt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "read-console-input": "^0.2.0"
+  }
+}
