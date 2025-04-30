@@ -1,0 +1,1 @@
+export default async function MoviePage({ params }) { const res = await fetch(""); < ----Adress ???  const movies = await res.json(); const movie = _____; // <---- Hur hittar du rätt film?  if (!movie) {    return <h1>Filmen hittades inte!</h1>;  }  return (    <div>      <h1>{movie.title}</h1>      <p>Recension: *****</p>       {/* Lägg till mer info här */}    </div>  );}  

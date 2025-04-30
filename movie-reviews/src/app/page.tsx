@@ -1,0 +1,1 @@
+export default async function HomePage() { const res = await fetch("http://localhost:3000/api/movies"); const movies = await res.json(); return (<div>      <h1>Filmrecensioner</h1>      <ul>        {movies.map(movie => (<li key={movie.id}>            <a href={`/movies/${movie.id}`}>{movie.title}</a>          </li>))}      </ul>    </div>); }  

@@ -1,0 +1,1 @@
+export async function GET() { const movies = [{ id: "1", title: "Interstellar" }, { id: "2", title: "Inception" }, { id: "3", title: "The Matrix" }    // Lägg till fler filmer  ]; return Response.json(_____); // <---- Vad ska returneras här?}  
