@@ -1,0 +1,19 @@
+{
+    "name": "projektfas3",
+    "version": "1.0.0",
+    "description": "CRUD-app med Express, EJS och SQLite",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "sqlite3": "^5.1.6"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3"
+    }
+}

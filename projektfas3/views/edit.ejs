@@ -1,0 +1,11 @@
+<% layout('layout') -%>
+
+    <h1>Redigera citat</h1>
+
+    <form action="/edit/<%= quote.id %>" method="POST">
+        <input type="text" name="author" value="<%= quote.author %>" required>
+        <input type="text" name="text" value="<%= quote.text %>" required>
+        <button type="submit">Spara</button>
+    </form>
+
+    <a href="/">Tillbaka</a>
